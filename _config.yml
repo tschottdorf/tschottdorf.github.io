@@ -1,0 +1,39 @@
+# Dependencies
+markdown:         kramdown
+
+highlighter:         rouge
+excerpt_separator:   "<!-- jump -->"
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Tobias Grieger
+tagline:          'Stuff I Ran Into'
+url:              https://tschottdorf.github.io/
+shorturl:         tschottdorf.github.io
+
+author:
+  name:           'Tobias Grieger'
+  url:            https://tschottdorf.github.io/
+
+paginate:         1
+
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           github.com/tschottdorf/tschottdorf.github.io
+
+# This is the list of pages to include in the header of the website.
+pages_list:
+  About: '/about/'
+  Archive: '/archive/'
+  Feed: '/atom.xml'
+
+# Allow URL Redirects:
+#  * https://help.github.com/articles/redirects-on-github-pages
+plugins:
+  - jekyll-redirect-from
+  - jekyll-paginate
